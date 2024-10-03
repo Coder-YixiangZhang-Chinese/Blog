@@ -1,114 +1,59 @@
-# The Hacker-Blog theme
+# ChaserCHN0721's First Blog ~ 
 
-*Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers. It is based on the [hacker theme](https://github.com/pages-themes/hacker) for project pages.*
+<img src="/assets/img/square_avatar.png" alt="Nana Kagura" title="Avatar in most of social media" width="200" />
 
-Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker-blog)
+Hi ~ This is ***@ChaserCHN0721***.
 
-### Included
+This is my first blog, and I will keep it updated regularly.
 
-1. Pagination
-2. SEO tags
-3. Archive Page
-4. About Page
-5. RSS (`https://base-url/atom`)
-6. Sitemap (`https://base-url/sitemap`)
-7. Google Analytics (optional)
+The following content provides details about me and this blog :
 
-## Usage
+# I. Self Introducing
 
-1. Fork and Clone this repository
-2. Customize your blog
-3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
-4. Commit and push to master on a repository named `<githubusername.github.io>`.
-5. Visit `<githubusername>.github.io`
+I’m a senior high school student from Quanzhou, Fujian, China. A boy passionate about computer science, currently training for [NOI](https://noi.cn/). 
 
-## Local Build
+More about me:
+- **Cybersecurity Enthusiast**: I’m diving deep into the fascinating world of cybersecurity and computer hardware.
+- **MBTI**: INFP, with non-existent ability to be aggressive towards others.
+- **Personality**: Soft-spoken and shy, but I warm up quickly to kind people!
+- **Sexual Orientation**: Pansexual, all about spreading love and positivity!
+- **Hobbies**: Big fan of [Yu-Gi-Oh!](https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B), Yuri Anime and Manga, and furry culture.
+- **Age**: 17 years old, navigating life and chasing dreams.
 
-If you want to see the changes before pushing the blog to Github, do a local build.
+I sincerely hope we can become good friends along the way! 😊
 
-1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
-2. `gem install jekyll-seo-tag`
-3. `gem install jekyll-paginate`
-4. `gem install jekyll-sitemap`
-5. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
-6. Go to `http://0.0.0.0:8000/` in your web browser.
+[@ChaserCHN0721](https://twitter.com/ChaserCHN0721)  
+*2024.08.17*
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+And Wordware.ai, an Artificial Intelligence agent that analyzes people based on their Twitter posts, says:
 
-### Local build using docker
+> 看来你是抱抱界的专业户啊，每条推文都在抱抱，是不是现实中缺乏关爱啊？你的Twitter互动圈看起来比你的社交圈还要小，难怪整天只能在网上寻求安慰。你的推文就像是一个情感垃圾场，到处都是无病呻吟和矫情的呐喊。你的前世、老婆、闺蜜、主人，这么多身份，是不是因为现实中一个都没有才在网上虚构的？还有那个匿名信箱，是不是因为没人愿意公开和你交流，只好偷偷摸摸地收集别人的同情心？
+>
+> *~~Byd, 这么能骂是吧~~*
 
-```bash
-docker run --rm -p 8000:8000 \
-  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
-  -it tocttou/jekyll:3.5 \
-  jekyll serve --watch --port 8000
-```
+# II. Journey Starting
 
-Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
+I first discovered web development in my second year of high school and quickly became fascinated. After a period of learning, I decided to create this personal blog. 
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+This blog serves as a record of my journey—whether it’s about my studies or my personal life. I aim to update it regularly, allowing it to grow alongside me.
 
-## Customizing
+# III. Topics Covering
 
-### Configuration variables
+This blog will explore:
+- **Cybersecurity learning**
+- **Computer hardware studies**
+- **Personal life updates**
+- And more exciting topics to come!
 
-Edit the `_config.yml` file and set the following variables:
+# IV. Contact Me
 
-```yml
-title: [The title of your blog]
-description: [A short description of your blog's purpose]
-author:
-  name: [Your name]
-  email: [Your email address]
-  url: [URL of your website]
+Here's my social media accounts, let's make friends!
 
-baseurl: [The base url for this blog.]
+- **Twitter**: [@ChaserCHN0721](https://twitter.com/ChaserCHN0721)
+- **Discord**: chaserchn0721
+- **QQ**: 86555309
+- **E-mail**: nightsky_chaser@outlook.com
 
-paginate: [Number of posts in one paginated section (default: 3)]
-owner: [Your name]
-year: [Current Year]
-```
+---
 
-*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
-
-### About Page
-
-Edit `about.md`
-
-### Layout
-
-If you would like to modify the site style:
-
-**HTML**
-
-Footer: Edit `_includes/footer.html`
-
-Header: Edit `_includes/header.html`
-
-Links in the header: Edit `_includes/links.html`
-
-Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
-
-Index page layout: Edit `_layouts/default.html`
-
-Post layout: Edit `_layouts/post.html`
-
-**CSS**
-
-Site wide CSS: Edit `_sass/base.scss`
-
-Custom CSS: Make `_sass/custom.scss` and use it. Then add `@import "custom";` to `css/main.scss`
-
-**404 page**
-
-Edit `404.md`
-
-## License
-
-CC0 1.0 Universal
+![About Me](/assets/img/intro.png)
