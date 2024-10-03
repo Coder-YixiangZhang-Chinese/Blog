@@ -3,7 +3,7 @@ layout: page
 title: Personal Info
 ---
 
-<img src="/assets/img/square_avatar.png" alt="Nana Kagura" title="Avatar in most of social media" width="200" />
+<img src="assets/img/square_avatar.png" alt="Nana Kagura" title="Avatar in most of social media" width="200" />
 
 Hi ~ This is ***@ChaserCHN0721***.
 
